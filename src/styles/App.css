@@ -1,0 +1,57 @@
+/* src/App.css */
+.App {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  margin-right: 10px;
+  width: 70%;
+}
+
+button {
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.status {
+  color: #198721;
+  font-weight: 900;
+}
+
+table {
+  border: 2px solid forestgreen;
+  width: 800px;
+  height: 200px;
+}
+
+th {
+  border-bottom: 1px solid black;
+}
+
+td {
+  text-align: center;
+}
+
+.btn-pending {
+  color: #198721;
+}
+
+.btn-success {
+  color: blue;
+}
